@@ -17,6 +17,7 @@ const Products = ({ start, end }) => {
   };
 
   useEffect(() => {
+    console.log(products)
     getProducts();
   }, []);
 
